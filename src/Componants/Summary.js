@@ -13,7 +13,7 @@ const Summary = ({userAnswer}) => {
         <img src={quizeCompletes}alt='Trophy Icon'/>
         <h2>Quiz completed</h2>
         <div id='summary-stats'>
-            <p>
+        <p>
                 <span className='number'>{skippedAnswersShare}%</span>
                 <span className='text'>Skipped</span>
             </p>
